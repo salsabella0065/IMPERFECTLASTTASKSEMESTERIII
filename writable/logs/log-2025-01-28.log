@@ -1,0 +1,1165 @@
+DEBUG - 2025-01-28 03:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 04:40:09 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: login/cek_login]
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->cek_login()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 04:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 04:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 04:54:19 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH\Controllers\Register.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Register->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 05:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 05:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-28 05:56:55 --> mysqli_sql_exception: Column 'no_hp' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(30): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 05:56:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (:nama:, :email:, :no_hp:, :username:, :password:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(30): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 05:56:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (\'cony\', \'cony@example.com\', NULL, \'conym\', \'admin1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (\'cony\', \'cony@example.com\', NULL, \'conym\', \'admin1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (:nama:, :email:, :no_hp:, :username:, :password:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(30): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 05:56:55 --> [Caused by] mysqli_sql_exception: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (\'cony\', \'cony@example.com\', NULL, \'conym\', \'admin1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (\'cony\', \'cony@example.com\', NULL, \'conym\', \'admin1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (\'cony\', \'cony@example.com\', NULL, \'conym\', \'admin1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `email`, `no_hp`, `username`, `password`) VALUES (:nama:, :email:, :no_hp:, :username:, :password:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(30): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:30:32 --> mysqli_sql_exception: Column 'id_user' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:30:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_user' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:30:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (NULL, \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (NULL, \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:30:32 --> [Caused by] mysqli_sql_exception: Column 'id_user' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (NULL, \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (NULL, \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (NULL, \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:35:20 --> mysqli_sql_exception: Column 'no_hp' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:35:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:35:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:35:20 --> [Caused by] mysqli_sql_exception: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:36:19 --> mysqli_sql_exception: Column 'no_hp' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:36:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:36:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:36:19 --> [Caused by] mysqli_sql_exception: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:37:16 --> mysqli_sql_exception: Column 'jenis_member' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:37:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_member' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:37:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'jenis_member' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:37:16 --> [Caused by] mysqli_sql_exception: Column 'jenis_member' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:37:50 --> mysqli_sql_exception: Column 'id_role' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:37:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_role' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:37:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_role' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:37:50 --> [Caused by] mysqli_sql_exception: Column 'id_role' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', NULL, \'Keraton, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 06:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-28 06:48:28 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:48:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'PRIMARY'
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:48:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'tiarrr\', \'tiara\', \'user2\', \'tianuh89@gmail.com\', NULL, \'Podosugih, Pekalongan\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'tiarrr\', \'tiara\', \'user2\', \'tianuh89@gmail.com\', NULL, \'Podosugih, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:48:28 --> [Caused by] mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'tiarrr\', \'tiara\', \'user2\', \'tianuh89@gmail.com\', NULL, \'Podosugih, Pekalongan\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'tiarrr\', \'tiara\', \'user2\', \'tianuh89@gmail.com\', NULL, \'Podosugih, Pekalongan\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'tiarrr\', \'tiara\', \'user2\', \'tianuh89@gmail.com\', NULL, \'Podosugih, Pekalongan\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-28 06:50:48 --> mysqli_sql_exception: Column 'no_hp' cannot be null in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:50:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:50:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', NULL, \'Solo\', NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', NULL, \'Solo\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:50:48 --> [Caused by] mysqli_sql_exception: Column 'no_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', NULL, \'Solo\', NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', NULL, \'Solo\', NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', NULL, \'Solo\', NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:58:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`)) in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:58:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:58:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:58:45 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 06:59:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`)) in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#7 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-01-28 06:59:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:59:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 06:59:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'3\', \'raniaym\', \'rania\', \'user3\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 APPPATH\Models\UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 06:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 06:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-28 07:00:58 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\fmcodeigniter65ta\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(52): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-28 07:00:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:00:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$QmkEweT.LVWAD0ni3NyfF.C8ItSDy41Qd3CRiU8Hwe8E4tJRvMaRi\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:00:57\', \'2025-01-28 07:00:57\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$QmkEweT.LVWAD0ni3NyfF.C8ItSDy41Qd3CRiU8Hwe8E4tJRvMaRi\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:00:57\', \'2025-01-28 07:00:57\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:00:58 --> [Caused by] mysqli_sql_exception: Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$QmkEweT.LVWAD0ni3NyfF.C8ItSDy41Qd3CRiU8Hwe8E4tJRvMaRi\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:00:57\', \'2025-01-28 07:00:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$QmkEweT.LVWAD0ni3NyfF.C8ItSDy41Qd3CRiU8Hwe8E4tJRvMaRi\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:00:57\', \'2025-01-28 07:00:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$QmkEweT.LVWAD0ni3NyfF.C8ItSDy41Qd3CRiU8Hwe8E4tJRvMaRi\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:00:57\', \'2025-01-28 07:00:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 07:33:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`)) in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\fmcodeigniter65ta\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(52): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-28 07:33:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:33:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$nSkeiN5rjWJyWGFvoBAimOURtn5LRpMUi4qnqCdwfTFc3VCt2BZeu\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:33:08\', \'2025-01-28 07:33:08\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$nSkeiN5rjWJyWGFvoBAimOURtn5LRpMUi4qnqCdwfTFc3VCt2BZeu\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:33:08\', \'2025-01-28 07:33:08\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:33:08 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$nSkeiN5rjWJyWGFvoBAimOURtn5LRpMUi4qnqCdwfTFc3VCt2BZeu\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:33:08\', \'2025-01-28 07:33:08\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$nSkeiN5rjWJyWGFvoBAimOURtn5LRpMUi4qnqCdwfTFc3VCt2BZeu\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:33:08\', \'2025-01-28 07:33:08\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$nSkeiN5rjWJyWGFvoBAimOURtn5LRpMUi4qnqCdwfTFc3VCt2BZeu\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:33:08\', \'2025-01-28 07:33:08\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 07:34:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`)) in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\fmcodeigniter65ta\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(52): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-28 07:34:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:34:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$VPch5sAd45DWD..hZxJAF.dkPKPJxOn3RGCOmYoH7a8ojLgPV9PcW\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:34:45\', \'2025-01-28 07:34:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$VPch5sAd45DWD..hZxJAF.dkPKPJxOn3RGCOmYoH7a8ojLgPV9PcW\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:34:45\', \'2025-01-28 07:34:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:34:45 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$VPch5sAd45DWD..hZxJAF.dkPKPJxOn3RGCOmYoH7a8ojLgPV9PcW\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:34:45\', \'2025-01-28 07:34:45\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$VPch5sAd45DWD..hZxJAF.dkPKPJxOn3RGCOmYoH7a8ojLgPV9PcW\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:34:45\', \'2025-01-28 07:34:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (\'3\', \'raniaym\', \'rania\', \'$2y$10$VPch5sAd45DWD..hZxJAF.dkPKPJxOn3RGCOmYoH7a8ojLgPV9PcW\', \'raniaym@example.com\', \'08123456789\', \'Solo\', \'premium\', \'2\', \'2025-01-28 07:34:45\', \'2025-01-28 07:34:45\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`, `created_at`, `updated_at`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 07:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 07:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 07:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 07:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 07:37:36 --> BadMethodCallException: Call to undefined method App\Models\UserModel::get_data
+[Method: POST, Route: login/cek_login]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Login.php(22): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->cek_login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:39:44 --> BadMethodCallException: Call to undefined method App\Models\UserModel::get_data
+[Method: POST, Route: login/cek_login]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Login.php(22): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->cek_login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:40:43 --> BadMethodCallException: Call to undefined method App\Models\UserModel::get_data
+[Method: POST, Route: login/cek_login]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Login.php(22): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->cek_login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 07:42:51 --> BadMethodCallException: Call to undefined method App\Models\UserModel::simpanuser
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Register.php(35): CodeIgniter\Model->__call('simpanuser', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:44:11 --> BadMethodCallException: Call to undefined method App\Models\UserModel::simpanuser
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Register.php(35): CodeIgniter\Model->__call('simpanuser', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+ERROR - 2025-01-28 07:44:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`)) in D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp\htdocs\fmcodeigniter65ta\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\fmcodeigniter65ta\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\fmcodeigniter65ta\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\fmcodeigniter65ta\app\Models\UserModel.php(19): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\fmcodeigniter65ta\app\Controllers\Register.php(35): App\Models\UserModel->simpanuser(Array)
+#9 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(933): App\Controllers\Register->proses()
+#10 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 D:\xampp\htdocs\fmcodeigniter65ta\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp\htdocs\fmcodeigniter65ta\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\xampp\htdocs\fmcodeigniter65ta\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\xampp\htdocs\fmcodeigniter65ta\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-01-28 07:44:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+[Method: POST, Route: registerbaru]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\UserModel.php(19): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:44:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', \'08123456789\', \'Keraton\', \'premium\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', \'08123456789\', \'Keraton\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\UserModel.php(19): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:44:52 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbci4-0065`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`id_role`) REFERENCES `role` (`id_role`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', \'08123456789\', \'Keraton\', \'premium\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', \'08123456789\', \'Keraton\', \'premium\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (\'1\', \'conym\', \'cony\', \'user1\', \'cony@example.com\', \'08123456789\', \'Keraton\', \'premium\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id_user`, `username`, `nama`, `password`, `email`, `no_hp`, `alamat`, `jenis_member`, `id_role`) VALUES (:id_user:, :username:, :nama:, :password:, :email:, :no_hp:, :alamat:, :jenis_member:, :id_role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\UserModel.php(19): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Register.php(35): App\Models\UserModel->simpanuser([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->proses()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 07:57:45 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-28 07:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 07:57:50 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:00:14 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:00:15 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-28 08:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 08:00:19 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:00:57 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:00:59 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:04:22 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-28 08:04:49 --> ErrorException: Cannot declare class App\Controllers\Register, because the name is already in use
+[Method: GET, Route: register]
+in APPPATH\Models\UserModel.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-28 08:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 08:06:10 --> Error: Class "Register\Controller" not found
+[Method: GET, Route: register]
+in APPPATH\Controllers\Register.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 08:06:29 --> Error: Class "Register\Controller" not found
+[Method: GET, Route: register]
+in APPPATH\Controllers\Register.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 08:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 08:07:17 --> Error: Class "App\Controllers\Controller" not found
+[Method: GET, Route: register]
+in APPPATH\Controllers\Register.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Register.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Register')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Register')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Register', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-28 08:08:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register_view.php"
+[Method: GET, Route: register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('register_view', [], true)
+ 3 APPPATH\Controllers\Register.php(12): view('register_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 08:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 08:52:32 --> BadMethodCallException: Call to undefined method App\Models\UserModel::get_data
+[Method: POST, Route: login/cek_login]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Login.php(22): CodeIgniter\Model->__call('get_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Login->cek_login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 08:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 08:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 09:32:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/lapangan/v_lapangan.php"
+[Method: POST, Route: dashboard_alogin/cek_login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lapangan/v_lapangan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/lapangan/v_lapangan', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('admin/lapangan/v_lapangan')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Lapangan.php(21): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 09:34:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/lapangan/v_lapangan.php"
+[Method: POST, Route: dashboard_alogin/cek_login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lapangan/v_lapangan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/lapangan/v_lapangan', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('admin/lapangan/v_lapangan')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Lapangan.php(21): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 09:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-28 09:34:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/lapangan/v_lapangan.php"
+[Method: POST, Route: dashboard_alogin/cek_login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/lapangan/v_lapangan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/lapangan/v_lapangan', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('admin/lapangan/v_lapangan')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Lapangan.php(21): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-28 09:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-28 09:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

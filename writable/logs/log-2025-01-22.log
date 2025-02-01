@@ -1,0 +1,1228 @@
+DEBUG - 2025-01-22 12:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 12:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 12:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 12:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 12:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 13:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 14:34:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_wrapper.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_wrapper.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('layout/v_wrapper', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 14:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 14:36:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_head.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_head.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_head', [], true)
+ 3 APPPATH\Views\layout\v_wrapper.php(2): view('layout/v_head')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('layout/v_wrapper', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 14:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 14:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 15:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 15:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:06:58 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 16:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:07:32 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:09:43 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 16:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:09:46 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:11:01 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:14:01 --> ErrorException: Undefined variable $sesi
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\layout\v_navbar.php on line 14.
+ 1 APPPATH\Views\layout\v_navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesi', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_navbar', [], true)
+ 5 APPPATH\Views\layout\v_wrapper.php(3): view('layout/v_navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+ 9 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:14:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 16:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 16:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:15:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:17:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:18:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 16:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:19:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 16:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 16:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 16:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 16:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 16:48:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:50:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:51:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:53:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:55:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_jadwal', [], true)
+ 3 APPPATH\Controllers\Jadwal.php(14): view('layout/v_jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:55:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_jadwal', [], true)
+ 3 APPPATH\Controllers\Jadwal.php(14): view('layout/v_jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:55:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_jadwal', [], true)
+ 3 APPPATH\Controllers\Jadwal.php(14): view('layout/v_jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:55:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_jadwal', [], true)
+ 3 APPPATH\Controllers\Jadwal.php(14): view('layout/v_jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:55:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/v_jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/v_jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/v_jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/v_jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:56:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jadwal/cek-jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal/cek-jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('jadwal/cek-jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('jadwal/cek-jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:57:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Jadwal.php"
+[Method: GET, Route: cek-jadwal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Jadwal.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('Jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:58:12 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 16:59:51 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:00:39 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 27.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 3 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 4 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 7 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+11 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:01:34 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:02:20 --> ErrorException: Undefined variable $data
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:03:24 --> ErrorException: Undefined variable $cekJadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cekJadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:11:21 --> ErrorException: Undefined variable $cekJadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cekJadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:11:48 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:12:16 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:12:18 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:12:19 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:20:37 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:20:39 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 17:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 17:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 17:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 17:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 17:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-22 17:31:13 --> ErrorException: Undefined variable $Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:32:51 --> ErrorException: Undefined variable $JadwalModel
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $JadwalModel', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:33:19 --> ErrorException: Undefined variable $data
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:35:12 --> ErrorException: Undefined variable $id
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:37:31 --> ErrorException: Undefined variable $data
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 APPPATH\Views\v_jadwal.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\v_jadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_Jadwal', [], true)
+ 5 APPPATH\Views\layout\v_content.php(3): view('v_Jadwal')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_content.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_content', [], true)
+ 9 APPPATH\Views\layout\v_wrapper.php(5): view('layout/v_content')
+10 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Views\\layout\\v_wrapper.php')
+11 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout/v_wrapper', [], true)
+13 APPPATH\Controllers\Jadwal.php(14): view('layout/v_wrapper', [...])
+14 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+15 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+16 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:39:08 --> ErrorException: Undefined property: App\Controllers\Jadwal::$yourModel
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$yourModel', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:39:45 --> ErrorException: Undefined property: App\Controllers\Jadwal::$Jadwa
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$Jadwa', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:39:59 --> ErrorException: Undefined property: App\Controllers\Jadwal::$JadwalModel
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$JadwalModel', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:40:44 --> ErrorException: Undefined property: App\Controllers\Jadwal::$Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:41:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 22.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_jadwal', [], true)
+ 4 APPPATH\Controllers\Jadwal.php(14): view('v_jadwal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:42:55 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 19.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_jadwal', [], true)
+ 3 APPPATH\Controllers\Jadwal.php(14): view('v_jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:43:30 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Views\v_jadwal.php on line 22.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_jadwal', [], true)
+ 4 APPPATH\Controllers\Jadwal.php(14): view('v_jadwal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:44:37 --> ErrorException: Undefined property: App\Controllers\Jadwal::$yourModel
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$yourModel', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:45:58 --> ErrorException: Undefined property: App\Controllers\Jadwal::$Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:46:12 --> ErrorException: Undefined property: App\Controllers\Jadwal::$data
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$data', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:46:33 --> ErrorException: Undefined property: App\Controllers\Jadwal::$cekJadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$cekJadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:47:08 --> ErrorException: Undefined property: App\Controllers\Jadwal::$Model
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$Model', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:47:41 --> Error: Call to undefined method App\Controllers\Jadwal::findAll()
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:48:23 --> ErrorException: Undefined property: App\Controllers\Jadwal::$cekJAdwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$cekJAdwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:50:41 --> ErrorException: Undefined property: App\Controllers\Jadwal::$cekJadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$cekJadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+CRITICAL - 2025-01-22 17:51:24 --> ErrorException: Undefined property: App\Controllers\Jadwal::$Jadwal
+[Method: GET, Route: cek-jadwal]
+in APPPATH\Controllers\Jadwal.php on line 14.
+ 1 APPPATH\Controllers\Jadwal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Jadwal::$Jadwal', 'D:\\xampp\\htdocs\\fmcodeigniter65ta\\app\\Controllers\\Jadwal.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Jadwal->cekJadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\fmcodeigniter65ta\\public\\index.php')
+DEBUG - 2025-01-22 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-22 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
